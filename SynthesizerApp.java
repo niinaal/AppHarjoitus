@@ -11,8 +11,13 @@ public class SynthesizerApp {
 		synthesizer1.printData();
 		synthesizer1.start();
 		
+		Synthesizer synthesizer2 = new Synthesizer("Juno", "X", 61);
+		synthesizer2.printData();
+		synthesizer2.playNotes();
 
-	
+		
+
+
 	
 	}
 
