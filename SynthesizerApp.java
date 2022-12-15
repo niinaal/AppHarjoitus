@@ -15,7 +15,9 @@ public class SynthesizerApp {
 		synthesizer2.printData();
 		synthesizer2.playNotes();
 
-		
+		Synthesizer synthesizer3 = new Synthesizer("Korg", "Microkorg", 37);
+		synthesizer3.printData();
+		synthesizer3.shutDown();
 
 
 	
